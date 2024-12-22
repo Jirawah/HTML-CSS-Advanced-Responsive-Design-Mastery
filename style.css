@@ -1,4 +1,58 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+body .layOut {
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header .siteBranding {
+    display: grid;
+}
+
+header .siteBranding .logo {
+    grid-row: 2;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 1.5em;
+}
+
+header .siteBranding .brandName {
+    grid-row: 3;
+    background-color: brown;
+}
+
+header .socialMediaAccess {
+    grid-row: 1;
+    background-color: blueviolet;   
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header .socialMediaAccess .sMIcons {
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.5em 80px 
+}
+
+header .socialMediaAccess .sMIcons svg {
+    max-height: 20px;
+    max-height: 20px;
+}
+
