@@ -92,3 +92,44 @@ header nav a {
     color: aliceblue;
 }
 
+main .bS2 {
+    background-color: gainsboro;
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+main {
+    padding: 0 2em;
+}
+
+
+main .brandServices article h2 {
+    padding: 1.2em 0;
+}
+
+main .brandServices article p {
+    padding-bottom: 1em;
+}
+
+main .brandServices article svg {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    padding-bottom: 0.8em;
+}
+
+main .brandServices .bS2 h2 {
+    text-align: end;
+    padding-right: 2em;
+}
+
+main .brandServices .bS2 p {
+    padding: 0 2em;
+    padding-bottom: 1em;
+}
+
+main .brandServices .bS2 svg {
+    padding: 0 2em;
+    padding-bottom: 1.2em;
+}
