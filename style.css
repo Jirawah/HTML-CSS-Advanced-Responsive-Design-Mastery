@@ -12,8 +12,33 @@ body .layOut {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Courier New', Courier, monospace;
+h1, h2, h3, h4, h5, nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p {
+    font-family: 'Fredoka One', cursive;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+    padding-left: 0.7em;
+    color: #0073d1;
+}
+
+h2 {
+    color: #0073d1;
+    padding-left: 1.35em;
+}
+
+header h2 {
+    color: black;
+    padding-bottom: 1em;
 }
 
 header .siteBranding {
@@ -63,7 +88,7 @@ header .socialMediaAccess .sMIcons {
 }
 
 header .socialMediaAccess .sMIcons svg {
-    max-height: 20px;
+    max-width: 20px;
     max-height: 20px;
     color: aliceblue;
 }
@@ -94,21 +119,19 @@ header nav a {
 
 main .bS2 {
     background-color: gainsboro;
-    margin-left: -2em;
-    margin-right: -2em;
 }
 
 main {
-    padding: 0 2em;
+    padding: 0;
 }
 
 
 main .brandServices article h2 {
-    padding: 1.2em 0;
+    padding: 1.2em 1.35em;
 }
 
 main .brandServices article p {
-    padding-bottom: 1em;
+    padding: 0em 2em 1em 2em;
 }
 
 main .brandServices article svg {
@@ -116,7 +139,7 @@ main .brandServices article svg {
     height: auto;
     max-width: 100%;
     display: block;
-    padding-bottom: 0.8em;
+    padding: 0em 2em 1em 2em;
 }
 
 main .brandServices .bS2 h2 {
@@ -132,4 +155,43 @@ main .brandServices .bS2 p {
 main .brandServices .bS2 svg {
     padding: 0 2em;
     padding-bottom: 1.2em;
+}
+
+main .brandProduct {
+    background-image: url('./img/bg-img-brandProduct_v3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+/* main .brandProduct h3, main .brandProduct h4{
+
+} */
+
+main .brandProduct p {
+    margin-top: 5em;    
+}
+
+footer {
+    /* background-color: black; */
+}
+
+footer h3 {
+    text-align: center;
+    padding: 2em 1em;
+}
+
+footer p {
+    padding: 0 2em 1em 2em;
+}
+
+footer div:last-child p {
+    padding-bottom: 2em;
 }
