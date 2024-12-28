@@ -84,12 +84,12 @@ header .socialMediaAccess .sMIcons {
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1.5em 80px 
+    padding: 1.5em 40px; 
 }
 
 header .socialMediaAccess .sMIcons svg {
-    max-width: 20px;
-    max-height: 20px;
+    max-width: 14px;
+    max-height: 14px;
     color: aliceblue;
 }
 
@@ -125,6 +125,9 @@ main {
     padding: 0;
 }
 
+main .brandServices article a {
+    color: #cb9700;
+}
 
 main .brandServices article h2 {
     padding: 1.2em 1.35em;
@@ -139,7 +142,7 @@ main .brandServices article svg {
     height: auto;
     max-width: 100%;
     display: block;
-    padding: 0em 2em 1em 2em;
+    padding: 0em 2em 1.4em 2em;
 }
 
 main .brandServices .bS2 h2 {
@@ -171,27 +174,51 @@ main .brandProduct {
     gap: 1em;
 }
 
-/* main .brandProduct h3, main .brandProduct h4{
+main .brandProduct h3, main .brandProduct h4{
+    color: aliceblue;
+}
 
-} */
+main .brandProduct h3 {
+    font-size: 24px;
+}
 
+main .brandProduct h4 {
+    font-size: 18px;
+}
+ 
 main .brandProduct p {
-    margin-top: 5em;    
+    color: aliceblue;
+    background-color: #ffa600;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14px;
+    min-width: 7em;
+    min-height: 2.5em;
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 
 footer {
-    /* background-color: black; */
+    background-color: black;
 }
 
 footer h3 {
     text-align: center;
     padding: 2em 1em;
+    color: aliceblue;
 }
 
 footer p {
     padding: 0 2em 1em 2em;
+    color: aliceblue;
 }
 
 footer div:last-child p {
     padding-bottom: 2em;
+}
+
+footer a {
+    color: #cb9700;
 }
