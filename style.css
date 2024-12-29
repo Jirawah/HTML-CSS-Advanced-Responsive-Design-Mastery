@@ -118,7 +118,7 @@ header nav a {
 }
 
 main .bS2 {
-    background-color: gainsboro;
+    background-color: rgb(240, 240, 240);
 }
 
 main {
@@ -221,4 +221,75 @@ footer div:last-child p {
 
 footer a {
     color: #cb9700;
+}
+
+@media screen and (min-width: 700px) {    
+    
+    header .siteBranding {
+        position: relative;
+    }
+
+    header a  {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    header a svg  {
+        order: 2;
+        max-width: 6em;
+        max-height: 6em;
+    }
+
+    header a p {
+        order: 1;
+        padding-bottom: 2em;
+    }
+
+    header .socialMediaAccess {
+        position: absolute;
+        background-color: transparent;
+        top: 0px;
+        right: 0px;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    header .socialMediaAccess .sMIcons {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        padding: 1.5em;
+    }
+
+    header .socialMediaAccess .sMIcons svg  {
+        color: black;
+    }
+
+    header nav {
+        flex-direction: row;
+        justify-content: end;
+        gap: 2em;
+    }
+
+    header nav:last-child {
+        padding-right: 1em;
+    }
+
+    main .brandServices {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        padding: 0 0.5em;
+    }
+
+    main .brandServices article {
+        margin: 1.5em  1em;
+        background-color: rgb(240, 240, 240);
+        border-radius: 5px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+    }
 }
